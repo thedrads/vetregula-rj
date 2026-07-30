@@ -1,0 +1,23 @@
+# Detecção automática para arquivos de texto
+* text=auto
+
+# Arquivos executados ou lidos também no Linux/OCI
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+
+# Scripts específicos do Windows
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Arquivos binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.npz binary

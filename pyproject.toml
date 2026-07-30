@@ -1,0 +1,30 @@
+[project]
+name = "vetregula-rj"
+version = "0.1.0"
+description = "Assistente documental para regularização inicial de consultórios veterinários no Rio de Janeiro."
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+exclude = [
+    ".venv",
+    "data/raw",
+    "data/processed",
+    "data/index",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+docstring-code-format = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

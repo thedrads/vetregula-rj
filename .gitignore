@@ -1,0 +1,42 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Testes e qualidade
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários e logs
+*.log
+logs/
+tmp/
+
+# Dados gerados pelo projeto
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# IDEs e sistema operacional
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store
+
+# Materiais que nunca devem ser publicados
+Relatorio_Hardware*
+mba/
+tech-ai-builder/
+private/
