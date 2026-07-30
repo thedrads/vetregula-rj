@@ -24,13 +24,15 @@
 - `AGENTS.md` criado;
 - registro de decisões criado;
 - verificações `pip check` e `ruff check` aprovadas.
+- documentação inicial do repositório concluída;
+- teste de sanidade aprovado;
+- primeiro commit criado;
+- repositório público criado e conectado ao GitHub;
+- conteúdo publicado auditado, sem arquivos privados ou credenciais.
 
 ## Em preparação
 
-- documentação inicial do repositório;
-- validação do primeiro teste;
-- primeiro commit;
-- criação e conexão do repositório GitHub;
+- validação operacional do Codex no VS Code;
 - verificação das contas Gemini API e OCI.
 
 ## Bloqueios antes da implementação
@@ -45,5 +47,5 @@ pip-tools 7.6.0 não estiver confirmada.
 
 ## Próximo marco
 
-Concluir a preparação local, executar o teste de sanidade, criar o primeiro
-commit e publicar o esqueleto seguro no GitHub.
+Validar o Codex no VS Code, verificar o acesso ao Gemini API e à OCI e concluir
+a preparação do ambiente antes da implementação.
